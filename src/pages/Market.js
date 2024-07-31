@@ -176,16 +176,19 @@
 
 
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Market = () => {
   const [selectedOption, setSelectedOption] = useState(null);
+  const navigate=useNavigate();
 
-  const handleSubmit = (e) => {
+  
+   const handleSubmit = (e) => {
     e.preventDefault();
     if (selectedOption === 'option1') {
-      window.location.href = '/Marketplace';
+      navigate('/marketplace');
     } else if (selectedOption === 'option2') {
-      window.location.href = '/Givemachines';
+      navigate('/givemachines');
       console.log('Option 2 selected');
     } else {
       console.log('Please select an option');
