@@ -18,7 +18,7 @@ export default function GiveItem() {
    },[])
 
    const handleOnSub=()=>{
-     navigate('/Marketplace',{state: {yourName,productName,actualPrice,sellingPrice,brand,item}});
+     navigate('/marketplace',{state: {yourName,productName,actualPrice,sellingPrice,brand,item}});
     //  navigate("/MarketItem",{ state: { item } });
    }
   return (
