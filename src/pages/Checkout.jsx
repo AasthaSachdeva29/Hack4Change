@@ -60,7 +60,7 @@ function Checkout() {
   const {item}=location.state || {};
   const navigate=useNavigate();
   const clickToPrev=()=>{
-    navigate('/Marketplace');
+    navigate('/marketplace');
   }
   return (
     <div>
