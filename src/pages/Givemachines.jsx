@@ -29,7 +29,7 @@ const items = [
 function Givemachines() {
   const navigate=useNavigate();
   const hoverToMachine=(item)=>{
-    navigate("/GiveItem",{ state: { item } });
+    navigate("/giveItem",{ state: { item } });
 
     
   }
