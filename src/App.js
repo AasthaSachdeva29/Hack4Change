@@ -37,7 +37,7 @@ const App = () => {
       <Sidebar>
         <Routes>
           
-        
+          <Route path="/" to="/productivity/market" />
           <Route path="/marketplace" element={<Marketplace/>} />
           <Route path="/traceability" element={<Traceability />} />
           <Route path="/productivity/market" element={<Market />} />
