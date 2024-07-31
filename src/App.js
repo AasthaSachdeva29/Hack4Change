@@ -38,17 +38,17 @@ const App = () => {
         <Routes>
           
         
-          <Route path="/Marketplace" element={<Marketplace/>} />
+          <Route path="/marketplace" element={<Marketplace/>} />
           <Route path="/traceability" element={<Traceability />} />
           <Route path="/productivity/market" element={<Market />} />
           <Route path="/productivity" element={<Market />} />
           <Route path="/productivity/agritrace" element={<Agritrace />} />
           <Route path="carbonfootprints" element={<Carbonfootprints/>} />
-          <Route path="/Checkout" element={<Checkout/>} />
-          <Route path="/GiveItem" element={<GiveItem/>} />
+          <Route path="/checkout" element={<Checkout/>} />
+          <Route path="/giveitem" element={<GiveItem/>} />
           
           
-          <Route path="/Givemachines" element={<Givemachines/>} />
+          <Route path="/givemachines" element={<Givemachines/>} />
           <Route path="/weather" element={<Weather/>} />
           <Route path="/aires" element={<Aires/>} />
           <Route path="/disease" element={<Diseasedetect/>} />
