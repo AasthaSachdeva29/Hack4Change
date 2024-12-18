@@ -27,11 +27,11 @@ const Sidebar = ({ children }) => {
                             }
                         ]
                     },
-                    {
-                        path: "/traceability",
-                        name: "Traceability",
-                        icon: <FaUserAlt />,
-                    },
+                    // {
+                    //     path: "/traceability",
+                    //     name: "Traceability",
+                    //     icon: <FaUserAlt />,
+                    // },
                     {
                         path: "/weather",
                         name: "Weather Forecast",
